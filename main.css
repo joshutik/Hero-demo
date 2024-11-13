@@ -148,3 +148,54 @@ Media query
     }
 }
 
+
+
+/* ..........................
+Styling for our services
+.............................. */
+.our-services-parent {
+    background-color: black;
+    padding: 5rem 0;
+}
+.our-services {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.services-txt-child> h2 {
+    padding: 2rem 3rem 1rem;
+    font-size: 2rem;
+}
+.services-txt-child> p {
+    padding: 0px 3rem 1rem;
+}
+
+/* glass effect */
+.services-txt-child {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    color: white;
+}
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.37,);
+}
+/* the end of glass effect */
+
+.services-img-child { 
+    padding-left: 5rem;
+    width: 100%;
+}
+.services-img-child> .img-ser {
+    height: 65vh;
+    border: 1.5px solid rgba(255, 255, 255, 0.63);
+    border-radius: 1rem;
+}
+/* ..........................
+Styling end for our services
+.............................. */
