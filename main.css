@@ -74,6 +74,36 @@ section {
 }
 
 
+/* ..........................
+Styling for the footer
+.............................. */
+.contain-foot {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+}
+
+
+
+
+/* ..........................
+Styling end for the footer
+.............................. */
+
+
+
+
+
+
+
+
+/* ..........................
+Media query
+.............................. */
+
+
 @media screen  and (max-width:770px){
     .container {
         width: 90%;
