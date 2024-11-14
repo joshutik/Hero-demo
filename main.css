@@ -148,3 +148,39 @@ Media query
     }
 }
 
+.information {
+    display: flex;
+    min-height: 100vh;
+    justify-content: start;
+    align-items: center;
+}
+
+.info {
+    width: 60%;
+    height: 45%;
+    color: white;
+    margin-left: 6rem;
+    display: flex;
+}
+
+.info > p {
+    font-size: 1.3rem;
+    padding: 0.6rem 0;
+    width: 80%;
+}
+
+.info > h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    padding-bottom: 2rem;
+    margin: 1rem 0;
+}
+
+.btn > button{
+    padding: 0.8rem 3rem;
+    border-radius: 0.6rem;
+    border: none;
+}
+
